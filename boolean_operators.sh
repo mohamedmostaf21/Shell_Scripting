@@ -26,9 +26,9 @@ fi
 
 if [ $a -lt 5 -o $b -gt 100 ]
 then
-        echo "$a -lt 100 -o $b -gt 100 : returns true"
+        echo "$a -lt 5 -o $b -gt 100 : returns true"
 else
-        echo "$a -lt 100 -o $b -gt 100 : returns false"
+        echo "$a -lt 5 -o $b -gt 100 : returns false"
 fi
 
 
